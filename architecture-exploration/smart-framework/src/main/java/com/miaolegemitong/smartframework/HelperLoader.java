@@ -1,9 +1,6 @@
 package com.miaolegemitong.smartframework;
 
-import com.miaolegemitong.smartframework.helper.BeanHelper;
-import com.miaolegemitong.smartframework.helper.ClassHelper;
-import com.miaolegemitong.smartframework.helper.ControllerHelper;
-import com.miaolegemitong.smartframework.helper.IocHelper;
+import com.miaolegemitong.smartframework.helper.*;
 import com.miaolegemitong.smartframework.utils.ClassUtil;
 
 /**
@@ -17,6 +14,7 @@ public class HelperLoader {
         Class<?>[] classList = {
                 ClassHelper.class,
                 BeanHelper.class,
+                AopHelper.class,
                 IocHelper.class,
                 ControllerHelper.class
         };

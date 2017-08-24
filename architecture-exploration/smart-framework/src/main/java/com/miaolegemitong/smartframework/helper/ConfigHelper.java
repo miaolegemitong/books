@@ -1,6 +1,5 @@
 package com.miaolegemitong.smartframework.helper;
 
-import com.miaolegemitong.smartframework.ConfigConstant;
 import com.miaolegemitong.smartframework.utils.PropsUtil;
 
 import java.util.Properties;
